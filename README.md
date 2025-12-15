@@ -8,3 +8,5 @@ There are different versions Rev 7 code for:
         Ambient Light thresholds for display brightness
         adjustment, because the three displays have 
         different maximum brightnesses.
+
+To invoke the Auto-DST function, both the nGMT and the nDST pins must be shorted to ground.  For clocks that I had built before this code modification that use a SP3T switch on the front panel to select between DST,Standard, or GMT time, a diode is added across the nGMT contact to ground (see uploaded schematic mod in this repository) and the switch left in "daylight savings time" mode.
